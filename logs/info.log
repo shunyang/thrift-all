@@ -1,0 +1,4 @@
+2016-08-17 20:51:58[org.eclipse.jetty.server.handler.ContextHandler$Context.log(ContextHandler.java:2052)-main:0]-[INFO] Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-156e5f3e'
+2016-08-17 20:52:00[com.yangyang.thrift.main.ThriftServer.startJetty(ThriftServer.java:43)-main:1573]-[INFO] start ThriftServer success, content:/, host:127.0.0.1,port:8080
+2016-08-17 21:08:01[org.eclipse.jetty.server.handler.ContextHandler$Context.log(ContextHandler.java:2052)-main:0]-[INFO] Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-4672b784'
+2016-08-17 21:08:02[com.yangyang.thrift.main.ThriftServer.startJetty(ThriftServer.java:43)-main:1061]-[INFO] start ThriftServer success, content:/thrift-server, host:127.0.0.1,port:9090

@@ -1,0 +1,131 @@
+2016-06-26 23:42:56[Thread-0:0]-[INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-06-26 23:42:56[Thread-0:1]-[INFO] Client environment:host.name=192.168.1.103
+2016-06-26 23:42:56[Thread-0:1]-[INFO] Client environment:java.version=1.7.0_79
+2016-06-26 23:42:56[Thread-0:1]-[INFO] Client environment:java.vendor=Oracle Corporation
+2016-06-26 23:42:56[Thread-0:1]-[INFO] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre
+2016-06-26 23:42:56[Thread-0:1]-[INFO] Client environment:java.class.path=/Users/chenshunyang/code/study/zookeeper-demo/zk-distributedlock/target/test-classes:/Users/chenshunyang/code/study/zookeeper-demo/zk-distributedlock/target/classes:/Users/chenshunyang/Documents/work/tools/maven/repo/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/Users/chenshunyang/Documents/work/tools/maven/repo/log4j/log4j/1.2.16/log4j-1.2.16.jar:/Users/chenshunyang/Documents/work/tools/maven/repo/jline/jline/0.9.94/jline-0.9.94.jar:/Users/chenshunyang/Documents/work/tools/maven/repo/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/Users/chenshunyang/Documents/work/tools/maven/repo/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar:/Users/chenshunyang/Documents/work/tools/maven/repo/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2.jar:/Users/chenshunyang/Documents/work/tools/maven/repo/junit/junit/4.12/junit-4.12.jar:/Users/chenshunyang/Documents/work/tools/maven/repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2016-06-26 23:42:56[Thread-0:1]-[INFO] Client environment:java.library.path=/Users/chenshunyang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2016-06-26 23:42:56[Thread-0:1]-[INFO] Client environment:java.io.tmpdir=/var/folders/r_/16ghm_kn6vx31qs570w4msz40000gn/T/
+2016-06-26 23:42:56[Thread-0:2]-[INFO] Client environment:java.compiler=<NA>
+2016-06-26 23:42:56[Thread-0:2]-[INFO] Client environment:os.name=Mac OS X
+2016-06-26 23:42:56[Thread-0:2]-[INFO] Client environment:os.arch=x86_64
+2016-06-26 23:42:56[Thread-0:2]-[INFO] Client environment:os.version=10.11.5
+2016-06-26 23:42:56[Thread-0:2]-[INFO] Client environment:user.name=chenshunyang
+2016-06-26 23:42:56[Thread-0:2]-[INFO] Client environment:user.home=/Users/chenshunyang
+2016-06-26 23:42:56[Thread-0:2]-[INFO] Client environment:user.dir=/Users/chenshunyang/code/study/zookeeper-demo/zk-distributedlock
+2016-06-26 23:42:56[Thread-0:3]-[INFO] Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=30000 watcher=com.csy.zookeeper.DistributedLock$1@664ce898
+2016-06-26 23:42:56[Thread-1:3]-[INFO] Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=30000 watcher=com.csy.zookeeper.DistributedLock$1@433a87a0
+2016-06-26 23:42:56[Thread-2:3]-[INFO] Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=30000 watcher=com.csy.zookeeper.DistributedLock$1@379e3bdb
+2016-06-26 23:42:56[Thread-1-SendThread(127.0.0.1:2181):25]-[INFO] Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-06-26 23:42:56[Thread-0-SendThread(127.0.0.1:2181):25]-[INFO] Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-06-26 23:42:56[Thread-2-SendThread(127.0.0.1:2181):25]-[INFO] Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-06-26 23:42:56[Thread-0-SendThread(127.0.0.1:2181):36]-[INFO] Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2016-06-26 23:42:56[Thread-1-SendThread(127.0.0.1:2181):36]-[INFO] Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2016-06-26 23:42:56[Thread-2-SendThread(127.0.0.1:2181):36]-[INFO] Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2016-06-26 23:42:56[Thread-0-SendThread(127.0.0.1:2181):44]-[INFO] Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1557dd1a43a007b, negotiated timeout = 30000
+2016-06-26 23:42:56[Thread-2-SendThread(127.0.0.1:2181):44]-[INFO] Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1557dd1a43a007c, negotiated timeout = 30000
+2016-06-26 23:42:56[Thread-1-SendThread(127.0.0.1:2181):44]-[INFO] Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x1557dd1a43a007d, negotiated timeout = 30000
+2016-06-26 23:42:56[Thread-2-EventThread:46]-[INFO] zookeeper connected success!
+2016-06-26 23:42:56[Thread-2:52]-[INFO] lockname:test3
+2016-06-26 23:42:56[Thread-2:57]-[INFO] myNode:/locks/test3_lock_0000000096 is created  
+2016-06-26 23:42:56[Thread-2:60]-[INFO] all subNodes:[test3_lock_0000000095, test3_lock_0000000096, test3_lock_0000000097]
+2016-06-26 23:42:56[Thread-2:60]-[INFO] lockObjNodes:[test3_lock_0000000095, test3_lock_0000000096, test3_lock_0000000097]
+2016-06-26 23:42:56[Thread-2:61]-[INFO] current node:/locks/test3_lock_0000000096,test3_lock_0000000095
+2016-06-26 23:42:56[Thread-2:61]-[INFO] subMyZnode:test3_lock_0000000096
+2016-06-26 23:42:56[Thread-2:61]-[INFO] waitNode:test3_lock_0000000095
+2016-06-26 23:42:56[Thread-2:61]-[INFO] Thread 10 /locks/test3_lock_0000000096 get lock true
+2016-06-26 23:42:56[Thread-2:61]-[INFO] unlock /locks/test3_lock_0000000096
+2016-06-26 23:42:56[Thread-1:63]-[INFO] Session: 0x1557dd1a43a007d closed
+2016-06-26 23:42:56[Thread-1-EventThread:64]-[INFO] EventThread shut down
+2016-06-26 23:42:56[Thread-0-EventThread:64]-[INFO] EventThread shut down
+2016-06-26 23:42:56[Thread-0:64]-[INFO] Session: 0x1557dd1a43a007b closed
+2016-06-26 23:42:56[Thread-2:65]-[INFO] Session: 0x1557dd1a43a007c closed
+2016-06-26 23:42:56[Thread-2-EventThread:65]-[INFO] EventThread shut down
+2016-06-26 23:44:01[Thread-0-EventThread:0]-[INFO] zookeeper connected success!
+2016-06-26 23:44:01[Thread-0:6]-[INFO] lockname:test3
+2016-06-26 23:44:01[Thread-0:12]-[INFO] myNode:/locks/test3_lock_0000000098 is created  
+2016-06-26 23:44:01[Thread-0:14]-[INFO] all subNodes:[test3_lock_0000000100, test3_lock_0000000098, test3_lock_0000000099]
+2016-06-26 23:44:01[Thread-0:15]-[INFO] lockObjNodes:[test3_lock_0000000098, test3_lock_0000000099, test3_lock_0000000100]
+2016-06-26 23:44:01[Thread-0:15]-[INFO] current node:/locks/test3_lock_0000000098,test3_lock_0000000098
+2016-06-26 23:44:01[Thread-0:15]-[INFO] smalleast node:/locks/test3_lock_0000000098==test3_lock_0000000098
+2016-06-26 23:44:01[Thread-0:15]-[INFO] Thread 8 /locks/test3_lock_0000000098 get lock true
+2016-06-26 23:44:01[Thread-0:15]-[INFO] unlock /locks/test3_lock_0000000098
+2016-06-26 23:45:34[Thread-2-EventThread:0]-[INFO] zookeeper connected success!
+2016-06-26 23:45:34[Thread-2:6]-[INFO] lockname:test3
+2016-06-26 23:45:34[Thread-2:12]-[INFO] myNode:/locks/test3_lock_0000000103 is created  
+2016-06-26 23:45:34[Thread-2:14]-[INFO] all subNodes:[test3_lock_0000000103, test3_lock_0000000102, test3_lock_0000000101]
+2016-06-26 23:45:34[Thread-2:15]-[INFO] lockObjNodes:[test3_lock_0000000101, test3_lock_0000000102, test3_lock_0000000103]
+2016-06-26 23:45:34[Thread-2:15]-[INFO] current node:/locks/test3_lock_0000000103,test3_lock_0000000101
+2016-06-26 23:45:34[Thread-2:15]-[INFO] subMyZnode:test3_lock_0000000103
+2016-06-26 23:45:34[Thread-2:15]-[INFO] waitNode:test3_lock_0000000102
+2016-06-26 23:45:34[Thread-2:15]-[INFO] Thread 10 /locks/test3_lock_0000000103 get lock true
+2016-06-26 23:45:34[Thread-2:15]-[INFO] unlock /locks/test3_lock_0000000103
+2016-06-26 23:51:08[Thread-0-EventThread:0]-[INFO] zookeeper connected success!
+2016-06-26 23:51:08[Thread-0:6]-[INFO] lockname:test3
+2016-06-26 23:51:08[Thread-0:11]-[INFO] myNode:/locks/test3_lock_0000000105 is created  
+2016-06-26 23:51:08[Thread-0:14]-[INFO] all subNodes:[test3_lock_0000000106, test3_lock_0000000105, test3_lock_0000000104]
+2016-06-26 23:51:08[Thread-0:14]-[INFO] lockObjNodes:[test3_lock_0000000104, test3_lock_0000000105, test3_lock_0000000106]
+2016-06-26 23:51:08[Thread-0:14]-[INFO] current node:/locks/test3_lock_0000000105,test3_lock_0000000104
+2016-06-26 23:51:08[Thread-0:15]-[INFO] subMyZnode:test3_lock_0000000105
+2016-06-26 23:51:08[Thread-0:15]-[INFO] waitNode:test3_lock_0000000104
+2016-06-26 23:51:08[Thread-0:15]-[INFO] Thread 8 /locks/test3_lock_0000000105 get lock true
+2016-06-26 23:51:08[Thread-0:15]-[INFO] unlock /locks/test3_lock_0000000105
+2016-06-26 23:53:40[Thread-0-EventThread:0]-[INFO] zookeeper connected success!
+2016-06-26 23:53:40[Thread-2-EventThread:0]-[INFO] zookeeper connected success!
+2016-06-26 23:53:40[Thread-0:6]-[INFO] lockname:test3
+2016-06-26 23:53:40[Thread-2:6]-[INFO] lockname:test3
+2016-06-26 23:53:40[Thread-2:12]-[INFO] myNode:/locks/test3_lock_0000000108 is created  
+2016-06-26 23:53:40[Thread-0:12]-[INFO] myNode:/locks/test3_lock_0000000109 is created  
+2016-06-26 23:53:40[Thread-0:16]-[INFO] all subNodes:[test3_lock_0000000108, test3_lock_0000000107, test3_lock_0000000109]
+2016-06-26 23:53:40[Thread-2:16]-[INFO] all subNodes:[test3_lock_0000000108, test3_lock_0000000107, test3_lock_0000000109]
+2016-06-26 23:53:40[Thread-2:16]-[INFO] lockObjNodes:[test3_lock_0000000107, test3_lock_0000000108, test3_lock_0000000109]
+2016-06-26 23:53:40[Thread-0:16]-[INFO] lockObjNodes:[test3_lock_0000000107, test3_lock_0000000108, test3_lock_0000000109]
+2016-06-26 23:53:40[Thread-2:16]-[INFO] current node:/locks/test3_lock_0000000108,test3_lock_0000000107
+2016-06-26 23:53:40[Thread-0:16]-[INFO] current node:/locks/test3_lock_0000000109,test3_lock_0000000107
+2016-06-26 23:53:40[Thread-2:16]-[INFO] subMyZnode:test3_lock_0000000108
+2016-06-26 23:53:40[Thread-0:16]-[INFO] subMyZnode:test3_lock_0000000109
+2016-06-26 23:53:40[Thread-0:17]-[INFO] waitNode:test3_lock_0000000108
+2016-06-26 23:53:40[Thread-2:17]-[INFO] waitNode:test3_lock_0000000107
+2016-06-26 23:53:40[Thread-0:17]-[INFO] Thread 8 /locks/test3_lock_0000000109 get lock true
+2016-06-26 23:53:40[Thread-2:17]-[INFO] Thread 10 /locks/test3_lock_0000000108 get lock true
+2016-06-26 23:53:40[Thread-0:17]-[INFO] unlock /locks/test3_lock_0000000109
+2016-06-26 23:53:40[Thread-2:17]-[INFO] unlock /locks/test3_lock_0000000108
+2016-06-26 23:54:12[Thread-0-EventThread:0]-[INFO] zookeeper connected success!
+2016-06-26 23:54:12[Thread-0:5]-[INFO] lockname:test3
+2016-06-26 23:54:12[Thread-0:13]-[INFO] myNode:/locks/test3_lock_0000000112 is created  
+2016-06-26 23:54:12[Thread-0:15]-[INFO] all subNodes:[test3_lock_0000000112, test3_lock_0000000110, test3_lock_0000000111]
+2016-06-26 23:54:12[Thread-0:16]-[INFO] lockObjNodes:[test3_lock_0000000110, test3_lock_0000000111, test3_lock_0000000112]
+2016-06-26 23:54:12[Thread-0:16]-[INFO] current node:/locks/test3_lock_0000000112,test3_lock_0000000110
+2016-06-26 23:54:12[Thread-0:17]-[INFO] subMyZnode:test3_lock_0000000112
+2016-06-26 23:54:12[Thread-0:17]-[INFO] waitNode:test3_lock_0000000111
+2016-06-26 23:54:12[Thread-0:17]-[INFO] Thread 8 /locks/test3_lock_0000000112 get lock true
+2016-06-26 23:54:12[Thread-0:17]-[INFO] unlock /locks/test3_lock_0000000112
+2016-06-26 23:54:44[Thread-1-EventThread:0]-[INFO] zookeeper connected success!
+2016-06-26 23:54:44[Thread-1:6]-[INFO] lockname:test3
+2016-06-26 23:54:44[Thread-1:13]-[INFO] myNode:/locks/test3_lock_0000000115 is created  
+2016-06-26 23:54:44[Thread-1:16]-[INFO] all subNodes:[test3_lock_0000000114, test3_lock_0000000115, test3_lock_0000000113]
+2016-06-26 23:54:44[Thread-1:16]-[INFO] lockObjNodes:[test3_lock_0000000113, test3_lock_0000000114, test3_lock_0000000115]
+2016-06-26 23:54:44[Thread-1:16]-[INFO] current node:/locks/test3_lock_0000000115,test3_lock_0000000113
+2016-06-26 23:54:44[Thread-1:16]-[INFO] subMyZnode:test3_lock_0000000115
+2016-06-26 23:54:44[Thread-1:17]-[INFO] waitNode:test3_lock_0000000114
+2016-06-26 23:54:44[Thread-1:17]-[INFO] Thread 9 /locks/test3_lock_0000000115 get lock true
+2016-06-26 23:54:44[Thread-1:17]-[INFO] unlock /locks/test3_lock_0000000115
+2016-06-26 23:55:25[Thread-2-EventThread:0]-[INFO] zookeeper connected success!
+2016-06-26 23:55:25[Thread-0-EventThread:0]-[INFO] zookeeper connected success!
+2016-06-26 23:55:25[Thread-0:7]-[INFO] lockname:test3
+2016-06-26 23:55:25[Thread-2:7]-[INFO] lockname:test3
+2016-06-26 23:55:25[Thread-2:14]-[INFO] myNode:/locks/test3_lock_0000000116 is created  
+2016-06-26 23:55:25[Thread-0:14]-[INFO] myNode:/locks/test3_lock_0000000118 is created  
+2016-06-26 23:55:25[Thread-2:17]-[INFO] all subNodes:[test3_lock_0000000118, test3_lock_0000000116, test3_lock_0000000117]
+2016-06-26 23:55:25[Thread-0:17]-[INFO] all subNodes:[test3_lock_0000000118, test3_lock_0000000116, test3_lock_0000000117]
+2016-06-26 23:55:25[Thread-2:17]-[INFO] lockObjNodes:[test3_lock_0000000116, test3_lock_0000000117, test3_lock_0000000118]
+2016-06-26 23:55:25[Thread-2:17]-[INFO] current node:/locks/test3_lock_0000000116,test3_lock_0000000116
+2016-06-26 23:55:25[Thread-2:17]-[INFO] smalleast node:/locks/test3_lock_0000000116==test3_lock_0000000116
+2016-06-26 23:55:25[Thread-0:17]-[INFO] lockObjNodes:[test3_lock_0000000116, test3_lock_0000000117, test3_lock_0000000118]
+2016-06-26 23:55:25[Thread-2:17]-[INFO] Thread 10 /locks/test3_lock_0000000116 get lock true
+2016-06-26 23:55:25[Thread-0:18]-[INFO] current node:/locks/test3_lock_0000000118,test3_lock_0000000116
+2016-06-26 23:55:25[Thread-2:18]-[INFO] unlock /locks/test3_lock_0000000116
+2016-06-26 23:55:25[Thread-0:18]-[INFO] subMyZnode:test3_lock_0000000118
+2016-06-26 23:55:25[Thread-0:18]-[INFO] waitNode:test3_lock_0000000117
+2016-06-26 23:55:25[Thread-0:18]-[INFO] Thread 8 /locks/test3_lock_0000000118 get lock true
+2016-06-26 23:55:25[Thread-0:18]-[INFO] unlock /locks/test3_lock_0000000118

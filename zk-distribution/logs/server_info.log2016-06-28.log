@@ -1,0 +1,118 @@
+2016-06-28 23:44:03[Thread-1:0]-[WARN] lock key: redistest
+2016-06-28 23:44:03[Thread-0:0]-[WARN] lock key: redistest
+2016-06-28 23:44:03[Thread-2:0]-[WARN] lock key: redistest
+2016-06-28 23:44:03[Thread-0:2]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1
+2016-06-28 23:44:03[Thread-2:2]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1
+2016-06-28 23:44:03[Thread-1:2]-[WARN] set lock success, key: redistest on ip IP
+2016-06-28 23:44:03[Thread-1:3]-[WARN] delete lock  : redistest on ip 127.0.0.1
+2016-06-28 23:44:03[Thread-0:102]-[WARN] lock key: redistest
+2016-06-28 23:44:03[Thread-2:102]-[WARN] lock key: redistest
+2016-06-28 23:44:03[Thread-0:103]-[WARN] set lock success, key: redistest on ip IP
+2016-06-28 23:44:03[Thread-2:103]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1
+2016-06-28 23:44:03[Thread-0:104]-[WARN] delete lock  : redistest on ip 127.0.0.1
+2016-06-28 23:44:03[Thread-2:205]-[WARN] lock key: redistest
+2016-06-28 23:44:03[Thread-2:206]-[WARN] set lock success, key: redistest on ip IP
+2016-06-28 23:44:03[Thread-2:207]-[WARN] delete lock  : redistest on ip 127.0.0.1
+2016-06-28 23:45:20[Thread-0:0]-[WARN] lock key: redistest
+2016-06-28 23:45:20[Thread-2:0]-[WARN] lock key: redistest
+2016-06-28 23:45:20[Thread-1:0]-[WARN] lock key: redistest
+2016-06-28 23:45:20[Thread-0:1]-[WARN] set lock success, key: redistest on ip 127.0.0.18
+2016-06-28 23:45:20[Thread-2:1]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1
+2016-06-28 23:45:20[Thread-1:1]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1
+2016-06-28 23:45:20[Thread-0:2]-[WARN] delete lock  : redistest on ip 127.0.0.1
+2016-06-28 23:45:20[Thread-1:103]-[WARN] lock key: redistest
+2016-06-28 23:45:20[Thread-2:103]-[WARN] lock key: redistest
+2016-06-28 23:45:20[Thread-2:103]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1
+2016-06-28 23:45:20[Thread-1:103]-[WARN] set lock success, key: redistest on ip 127.0.0.19
+2016-06-28 23:45:20[Thread-1:105]-[WARN] delete lock  : redistest on ip 127.0.0.1
+2016-06-28 23:45:21[Thread-2:204]-[WARN] lock key: redistest
+2016-06-28 23:45:21[Thread-2:205]-[WARN] set lock success, key: redistest on ip 127.0.0.110
+2016-06-28 23:45:21[Thread-2:206]-[WARN] delete lock  : redistest on ip 127.0.0.1
+2016-06-28 23:46:56[Thread-0:0]-[WARN] lock key: redistest
+2016-06-28 23:46:56[Thread-1:0]-[WARN] lock key: redistest
+2016-06-28 23:46:56[Thread-2:0]-[WARN] lock key: redistest
+2016-06-28 23:46:56[Thread-1:1]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1 9
+2016-06-28 23:46:56[Thread-0:1]-[WARN] set lock success, key: redistest on ip 127.0.0.1 8
+2016-06-28 23:46:56[Thread-2:1]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1 10
+2016-06-28 23:46:56[Thread-0:2]-[WARN] delete lock  : redistest on ip 127.0.0.1
+2016-06-28 23:46:56[Thread-1:105]-[WARN] lock key: redistest
+2016-06-28 23:46:56[Thread-2:105]-[WARN] lock key: redistest
+2016-06-28 23:46:56[Thread-1:106]-[WARN] set lock success, key: redistest on ip 127.0.0.1 9
+2016-06-28 23:46:56[Thread-2:106]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1 10
+2016-06-28 23:46:56[Thread-1:107]-[WARN] delete lock  : redistest on ip 127.0.0.1
+2016-06-28 23:46:56[Thread-2:209]-[WARN] lock key: redistest
+2016-06-28 23:46:56[Thread-2:210]-[WARN] set lock success, key: redistest on ip 127.0.0.1 10
+2016-06-28 23:46:56[Thread-2:211]-[WARN] delete lock  : redistest on ip 127.0.0.1
+2016-06-28 23:48:37[Thread-1:0]-[WARN] lock key: redistest
+2016-06-28 23:48:37[Thread-0:0]-[WARN] lock key: redistest
+2016-06-28 23:48:37[Thread-2:0]-[WARN] lock key: redistest
+2016-06-28 23:48:37[Thread-1:1]-[WARN] set lock success, key: redistest on ip 127.0.0.1 9
+2016-06-28 23:48:37[Thread-2:1]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1 10
+2016-06-28 23:48:37[Thread-0:1]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1 8
+2016-06-28 23:48:37[Thread-1:2]-[WARN] delete lock  : redistest on ip 127.0.0.1
+2016-06-28 23:48:37[Thread-2:101]-[WARN] lock key: redistest
+2016-06-28 23:48:37[Thread-0:101]-[WARN] lock key: redistest
+2016-06-28 23:48:37[Thread-0:102]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1 8
+2016-06-28 23:48:37[Thread-2:102]-[WARN] set lock success, key: redistest on ip 127.0.0.1 10
+2016-06-28 23:48:37[Thread-2:102]-[WARN] delete lock  : redistest on ip 127.0.0.1
+2016-06-28 23:48:37[Thread-0:205]-[WARN] lock key: redistest
+2016-06-28 23:48:37[Thread-0:206]-[WARN] set lock success, key: redistest on ip 127.0.0.1 8
+2016-06-28 23:48:37[Thread-0:207]-[WARN] delete lock  : redistest on ip 127.0.0.1
+2016-06-28 23:49:14[Thread-1:1]-[WARN] lock key: redistest
+2016-06-28 23:49:14[Thread-2:1]-[WARN] lock key: redistest
+2016-06-28 23:49:14[Thread-0:1]-[WARN] lock key: redistest
+2016-06-28 23:49:14[Thread-1:1]-[WARN] set lock success, key: redistest on ip 127.0.0.1 9
+2016-06-28 23:49:14[Thread-2:1]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1 10
+2016-06-28 23:49:14[Thread-0:2]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1 8
+2016-06-28 23:49:14[Thread-1:3]-[WARN] delete lock  : redistest on ip 127.0.0.1 9
+2016-06-28 23:49:15[Thread-2:102]-[WARN] lock key: redistest
+2016-06-28 23:49:15[Thread-0:102]-[WARN] lock key: redistest
+2016-06-28 23:49:15[Thread-2:103]-[WARN] set lock success, key: redistest on ip 127.0.0.1 10
+2016-06-28 23:49:15[Thread-0:103]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1 8
+2016-06-28 23:49:15[Thread-2:104]-[WARN] delete lock  : redistest on ip 127.0.0.1 10
+2016-06-28 23:49:15[Thread-0:207]-[WARN] lock key: redistest
+2016-06-28 23:49:15[Thread-0:208]-[WARN] set lock success, key: redistest on ip 127.0.0.1 8
+2016-06-28 23:49:15[Thread-0:208]-[WARN] delete lock  : redistest on ip 127.0.0.1 8
+2016-06-28 23:50:00[Thread-1:0]-[WARN] lock key: redistest
+2016-06-28 23:50:00[Thread-2:0]-[WARN] lock key: redistest
+2016-06-28 23:50:00[Thread-0:0]-[WARN] lock key: redistest
+2016-06-28 23:50:00[Thread-1:1]-[WARN] set lock success, key: redistest on ip 127.0.0.1ThreadId:9
+2016-06-28 23:50:00[Thread-2:1]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1 10
+2016-06-28 23:50:00[Thread-0:1]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1 8
+2016-06-28 23:50:00[Thread-1:2]-[WARN] delete lock  : redistest on ip 127.0.0.1ThreadId: 9
+2016-06-28 23:50:00[Thread-2:104]-[WARN] lock key: redistest
+2016-06-28 23:50:00[Thread-2:104]-[WARN] set lock success, key: redistest on ip 127.0.0.1ThreadId:10
+2016-06-28 23:50:00[Thread-0:105]-[WARN] lock key: redistest
+2016-06-28 23:50:00[Thread-2:105]-[WARN] delete lock  : redistest on ip 127.0.0.1ThreadId: 10
+2016-06-28 23:50:00[Thread-0:106]-[WARN] set lock success, key: redistest on ip 127.0.0.1ThreadId:8
+2016-06-28 23:50:00[Thread-0:107]-[WARN] delete lock  : redistest on ip 127.0.0.1ThreadId: 8
+2016-06-28 23:52:37[Thread-2:0]-[WARN] lock key: redistest
+2016-06-28 23:52:37[Thread-1:0]-[WARN] lock key: redistest
+2016-06-28 23:52:37[Thread-0:0]-[WARN] lock key: redistest
+2016-06-28 23:52:37[Thread-1:1]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1 ThreadId: 9
+2016-06-28 23:52:37[Thread-0:1]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1 ThreadId: 8
+2016-06-28 23:52:37[Thread-2:1]-[WARN] set lock success, key: redistest on ip 127.0.0.1 ThreadId:10
+2016-06-28 23:52:37[Thread-2:3]-[WARN] delete lock  : redistest on ip 127.0.0.1 ThreadId: 10
+2016-06-28 23:52:37[Thread-1:106]-[WARN] lock key: redistest
+2016-06-28 23:52:37[Thread-0:107]-[WARN] lock key: redistest
+2016-06-28 23:52:37[Thread-0:107]-[WARN] set lock faile : redistest locked by another business on ip 127.0.0.1 ThreadId: 8
+2016-06-28 23:52:37[Thread-1:107]-[WARN] set lock success, key: redistest on ip 127.0.0.1 ThreadId:9
+2016-06-28 23:52:37[Thread-1:108]-[WARN] delete lock  : redistest on ip 127.0.0.1 ThreadId: 9
+2016-06-28 23:52:37[Thread-0:208]-[WARN] lock key: redistest
+2016-06-28 23:52:37[Thread-0:209]-[WARN] set lock success, key: redistest on ip 127.0.0.1 ThreadId:8
+2016-06-28 23:52:37[Thread-0:209]-[WARN] delete lock  : redistest on ip 127.0.0.1 ThreadId: 8
+2016-06-28 23:55:39[Thread-0:0]-[WARN] lock key: redistest
+2016-06-28 23:55:39[Thread-1:0]-[WARN] lock key: redistest
+2016-06-28 23:55:39[Thread-2:0]-[WARN] lock key: redistest
+2016-06-28 23:55:39[Thread-0:0]-[WARN] set lock success, key: redistest on  ThreadId:8
+2016-06-28 23:55:39[Thread-2:1]-[WARN] set lock fail : redistest locked by another business on  ThreadId: 10
+2016-06-28 23:55:39[Thread-1:0]-[WARN] set lock fail : redistest locked by another business on  ThreadId: 9
+2016-06-28 23:55:39[Thread-0:2]-[WARN] delete lock  : redistest on  ThreadId: 8
+2016-06-28 23:55:39[Thread-2:103]-[WARN] lock key: redistest
+2016-06-28 23:55:39[Thread-1:103]-[WARN] lock key: redistest
+2016-06-28 23:55:39[Thread-1:103]-[WARN] set lock fail : redistest locked by another business on  ThreadId: 9
+2016-06-28 23:55:39[Thread-2:103]-[WARN] set lock success, key: redistest on  ThreadId:10
+2016-06-28 23:55:39[Thread-2:104]-[WARN] delete lock  : redistest on  ThreadId: 10
+2016-06-28 23:55:39[Thread-1:207]-[WARN] lock key: redistest
+2016-06-28 23:55:39[Thread-1:208]-[WARN] set lock success, key: redistest on  ThreadId:9
+2016-06-28 23:55:39[Thread-1:208]-[WARN] delete lock  : redistest on  ThreadId: 9

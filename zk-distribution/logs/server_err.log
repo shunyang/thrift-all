@@ -1,0 +1,15 @@
+2016-06-27 00:15:38[Thread-2-EventThread:1]-[ERROR] Error while calling watcher 
+java.lang.NullPointerException
+	at com.csy.zookeeper.DistributedLock$1.process(DistributedLock.java:57)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2016-06-27 00:15:38[Thread-1-EventThread:1]-[ERROR] Error while calling watcher 
+java.lang.NullPointerException
+	at com.csy.zookeeper.DistributedLock$1.process(DistributedLock.java:57)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2016-06-27 00:15:38[Thread-0-EventThread:1]-[ERROR] Error while calling watcher 
+java.lang.NullPointerException
+	at com.csy.zookeeper.DistributedLock$1.process(DistributedLock.java:57)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
