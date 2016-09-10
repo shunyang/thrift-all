@@ -23,20 +23,15 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="thrift-pool" />
-        <module name="zk-distribution" />
-      </profile>
-      <profile default="false" name="Annotation profile for thrift-server" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="thrift-server" />
+        <module name="thrift-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="frame-all" target="1.5" />
+      <module name="thrift-all" target="1.5" />
       <module name="thrift-pool" target="1.5" />
-      <module name="thrift-server" target="1.7" />
+      <module name="thrift-server" target="1.8" />
+      <module name="thrift-service" target="1.8" />
       <module name="zk-distribution" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thrift Service Framework - Demo</title>
+    <link href="css/global.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/thrift/thrift.js"></script>
+    <script type="text/javascript" src="js/service/service_types.js"></script>
+    <script type="text/javascript" src="js/service/HelloService.js"></script>
+    <script type="text/javascript" src="js/service/HealthService.js"></script>
+</head>
+<body>
+<h3>Thrift Service Framework - Demo</h3>
+<input type="button" id="btnPing" value="call ping()"/>
+<input type="button" id="btnTest" value="call test()"/>
+<input type="button" id="btnHello" value="call hello()"/>
+
+<textarea id="txtResult" style="width:90%;" rows="5"></textarea>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#btnPing").click(function () {
+            try {
+                var transport = new Thrift.Transport("health.service?" + Math.random());
+                var protocol = new Thrift.TJSONProtocol(transport);
+                var client = new HealthServiceClient(protocol);
+                var result = client.ping();
+                $("#txtResult").val(result);
+            }
+            catch (e) {
+                $("#txtResult").val("出错啦:" + e);
+            }
+        });
+
+        $("#btnTest").click(function () {
+            try {
+                var transport = new Thrift.Transport("hello.service?" + Math.random());
+                var protocol = new Thrift.TJSONProtocol(transport);
+                var client = new HelloServiceClient(protocol, protocol);
+                var param = new DemoParam();
+                param.id = "1";
+                param.name = "abc";
+                param.demoEnum = DemoEnum.B;
+                var res = client.test(param);
+                $("#txtResult").val("code:" + res.code + ", result:" + res.result);
+            }
+            catch (e) {
+                $("#txtResult").val("出错啦:" + e);
+            }
+        });
+
+        $("#btnHello").click(function () {
+            try {
+                var transport = new Thrift.Transport("hello.service?" + Math.random());
+                var protocol = new Thrift.TJSONProtocol(transport);
+                var client = new HelloServiceClient(protocol, protocol);
+                //演示用回调方式,取得返回值
+                client.hello("jimmy", function (d) {
+                    $("#txtResult").val(d);
+                });
+
+            }
+            catch (e) {
+                $("#txtResult").val("出错啦:" + e);
+            }
+        });
+    })
+
+</script>
+</body>
+</html>

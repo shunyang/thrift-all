@@ -7,7 +7,7 @@
   <version>1.0</version>
   <packaging>jar</packaging>
 
-  <name>frame</name>
+  <name>thrift-pool</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -57,4 +57,7 @@
           </dependency>
         
   </dependencies>
+    <build>
+        <finalName>${project.artifactId}</finalName>
+    </build>
 </project>

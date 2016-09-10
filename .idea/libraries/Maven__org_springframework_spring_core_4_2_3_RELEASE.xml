@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework:spring-core:4.2.3.RELEASE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Documents/work/tools/maven/repo/org/springframework/spring-core/4.2.3.RELEASE/spring-core-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/tools/maven/repo/org/springframework/spring-core/4.2.3.RELEASE/spring-core-4.2.3.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/Documents/work/tools/maven/repo/org/springframework/spring-core/4.2.3.RELEASE/spring-core-4.2.3.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/tools/maven/repo/org/springframework/spring-core/4.2.3.RELEASE/spring-core-4.2.3.RELEASE-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/Documents/work/tools/maven/repo/org/springframework/spring-core/4.2.3.RELEASE/spring-core-4.2.3.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/tools/maven/repo/org/springframework/spring-core/4.2.3.RELEASE/spring-core-4.2.3.RELEASE-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

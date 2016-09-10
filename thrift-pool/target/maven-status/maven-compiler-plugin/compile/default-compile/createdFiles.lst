@@ -1,6 +1,9 @@
-com/yangyang/frame/thrift/ServerInfo.class
+com/yangyang/connection/thrift/ProtocolPoolTest.class
 com/yangyang/frame/thrift/PoolTest$1.class
-com/yangyang/frame/thrift/ThriftTransportPool.class
 com/yangyang/frame/thrift/PoolTest.class
-com/yangyang/frame/thrift/TransfortWrapper.class
 com/yangyang/frame/thrift/ThriftTransportPool$1.class
+com/yangyang/frame/thrift/ThriftTransportPool.class
+com/yangyang/frame/thrift/ServerInfo.class
+com/yangyang/frame/thrift/TransfortWrapper.class
+com/yangyang/connection/thrift/AutoClearGenericObjectPool.class
+com/yangyang/connection/thrift/TProtocolFactory.class

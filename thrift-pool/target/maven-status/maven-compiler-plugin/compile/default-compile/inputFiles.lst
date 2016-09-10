@@ -1,5 +1,7 @@
-/Users/chenshunyang/code/study/frame-all/thrift-pool/src/main/java/com/yangyang/frame/thrift/ThriftTransportPool.java
-/Users/chenshunyang/code/study/frame-all/thrift-pool/src/main/java/com/yangyang/frame/thrift/PoolTest.java
-/Users/chenshunyang/code/study/frame-all/thrift-pool/src/main/java/com/yangyang/connection/thrift/TProtocolFactory.java
-/Users/chenshunyang/code/study/frame-all/thrift-pool/src/main/java/com/yangyang/frame/thrift/ServerInfo.java
-/Users/chenshunyang/code/study/frame-all/thrift-pool/src/main/java/com/yangyang/frame/thrift/TransfortWrapper.java
+/Users/chenshunyang/code/study/thrift-all/thrift-pool/src/main/java/com/yangyang/connection/thrift/AutoClearGenericObjectPool.java
+/Users/chenshunyang/code/study/thrift-all/thrift-pool/src/main/java/com/yangyang/frame/thrift/PoolTest.java
+/Users/chenshunyang/code/study/thrift-all/thrift-pool/src/main/java/com/yangyang/connection/thrift/ProtocolPoolTest.java
+/Users/chenshunyang/code/study/thrift-all/thrift-pool/src/main/java/com/yangyang/frame/thrift/TransfortWrapper.java
+/Users/chenshunyang/code/study/thrift-all/thrift-pool/src/main/java/com/yangyang/connection/thrift/TProtocolFactory.java
+/Users/chenshunyang/code/study/thrift-all/thrift-pool/src/main/java/com/yangyang/frame/thrift/ServerInfo.java
+/Users/chenshunyang/code/study/thrift-all/thrift-pool/src/main/java/com/yangyang/frame/thrift/ThriftTransportPool.java

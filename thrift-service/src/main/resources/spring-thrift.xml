@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+			http://www.springframework.org/schema/util
+			http://www.springframework.org/schema/util/spring-util-3.1.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
+       default-lazy-init="true" default-autowire="byName">
+
+    <context:component-scan base-package="com.yangyang.thrift"/>
+
+    <bean class="org.springframework.web.servlet.handler.SimpleServletHandlerAdapter"/>
+
+    <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+
+
+    <bean name="/health.service" class="com.yangyang.thrift.proxy.ThriftServletProxy">
+        <constructor-arg index="0" value="com.yangyang.thrift.service.HealthService"/>
+        <constructor-arg index="1">
+            <ref bean="healthServiceImpl"/>
+        </constructor-arg>
+    </bean>
+
+    <bean name="/hello.service" class="com.yangyang.thrift.proxy.ThriftServletProxy">
+        <constructor-arg index="0" value="com.yangyang.thrift.service.HelloService"/>
+        <constructor-arg index="1">
+            <ref bean="helloServiceImpl"/>
+        </constructor-arg>
+    </bean>
+
+    <util:list id="thriftServerList">
+        <ref bean="helloProxy"/>
+        <ref bean="healthProxy"/>
+    </util:list>
+
+    <bean id="helloProxy" class="com.yangyang.thrift.proxy.ThriftServerProxy">
+        <property name="port" value="10001"/>
+        <property name="serviceInterface" value="com.yangyang.thrift.service.HelloService"/>
+        <property name="serviceImplObject" ref="helloServiceImpl"/>
+    </bean>
+
+
+    <bean id="healthProxy" class="com.yangyang.thrift.proxy.ThriftServerProxy">
+        <property name="port" value="10002"/>
+        <property name="serviceInterface" value="com.yangyang.thrift.service.HealthService"/>
+        <property name="serviceImplObject" ref="healthServiceImpl"/>
+    </bean>
+
+
+</beans>
