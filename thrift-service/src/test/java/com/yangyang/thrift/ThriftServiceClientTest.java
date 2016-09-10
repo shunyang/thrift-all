@@ -15,7 +15,7 @@ import org.apache.thrift.transport.*;
  */
 public class ThriftServiceClientTest {
     static String serviceHost = "127.0.0.1";
-    static String baseUrl = "http://" + serviceHost + ":8081/";
+    static String baseUrl = "http://" + serviceHost + ":8080/";
 
     /**
      * @param args

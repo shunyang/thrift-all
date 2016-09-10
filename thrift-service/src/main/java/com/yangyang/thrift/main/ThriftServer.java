@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class ThriftServer {
 
-    private static final int PORT = 8081;
+    private static final int PORT = 8080;
     private static final String HOST = "127.0.0.1";
     private static final String CONTEXT_PATH = "/";
     private static final String WEB_DIR = "web";
