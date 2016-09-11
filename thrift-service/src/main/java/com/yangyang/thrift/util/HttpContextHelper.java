@@ -1,7 +1,7 @@
 package com.yangyang.thrift.util;
 
 import com.alibaba.fastjson.JSON;
-import com.yangyang.thrift.common.RespCode;
+import com.yangyang.thrift.spring.common.RespCode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpHeaders;

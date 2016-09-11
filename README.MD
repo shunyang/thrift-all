@@ -13,7 +13,7 @@ thrift不仅支持tcp/ip协议的rpc调用，也支持http协议的rest服务调
 #### 2.1支持rpc调用
 支持常规的tcp/ip协议的rpc调用
 
-#### 2.2 支持http协议的servlet调用
+#### 2.2 支持http协议的servlet调用 
 1、 支持以servlet方式嵌入web容器(tomcat/weblogic/jboss之类)运行
 2、 也可以直接用嵌入式jetty直接从jar包运行
 

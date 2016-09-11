@@ -20,5 +20,6 @@
   <modules>
     <module>thrift-pool</module>
     <module>thrift-service</module>
+    <module>thrift-spring</module>
   </modules>
 </project>

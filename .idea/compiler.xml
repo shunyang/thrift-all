@@ -24,15 +24,14 @@
         <processorPath useClasspath="true" />
         <module name="thrift-pool" />
         <module name="thrift-service" />
+        <module name="thrift-spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="frame-all" target="1.5" />
       <module name="thrift-all" target="1.5" />
       <module name="thrift-pool" target="1.5" />
-      <module name="thrift-server" target="1.8" />
       <module name="thrift-service" target="1.8" />
-      <module name="zk-distribution" target="1.5" />
+      <module name="thrift-spring" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

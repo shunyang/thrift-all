@@ -1,4 +1,4 @@
-package com.yangyang.thrift.common;
+package com.yangyang.thrift.spring.common;
 
 import com.alibaba.fastjson.JSON;
 

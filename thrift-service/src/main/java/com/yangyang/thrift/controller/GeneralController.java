@@ -1,6 +1,6 @@
 package com.yangyang.thrift.controller;
 
-import com.yangyang.thrift.common.RespCode;
+import com.yangyang.thrift.spring.common.RespCode;
 import com.yangyang.thrift.util.HttpContextHelper;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

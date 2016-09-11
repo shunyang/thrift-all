@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/thrift-all.iml" filepath="$PROJECT_DIR$/thrift-all.iml" />
       <module fileurl="file://$PROJECT_DIR$/thrift-pool/thrift-pool.iml" filepath="$PROJECT_DIR$/thrift-pool/thrift-pool.iml" />
       <module fileurl="file://$PROJECT_DIR$/thrift-service/thrift-service.iml" filepath="$PROJECT_DIR$/thrift-service/thrift-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thrift-spring/thrift-spring.iml" filepath="$PROJECT_DIR$/thrift-spring/thrift-spring.iml" />
     </modules>
   </component>
 </project>
