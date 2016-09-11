@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-lazy-init="false">
+
+
+    <bean class="com.yangyang.thrift.spring.client.ThriftClientScannerConfigurer">
+        <property name="basePackage" value="com.fangdd.newhouse.baseinfo.thrift.protocol"/><!--thrift文件生成的java -->
+
+        <property name="thriftConfig">
+            <map>
+                <entry key="protocolType">
+                    <value>compact</value><!-- 客户端和服务器端保持一致，采用压缩compact protocol处理 -->
+                </entry>
+                <entry key="serverIp"><!-- 服务内部域名地址为base.nh.fdd -->
+                    <value>base.nh.fdd</value>
+                </entry>
+                <entry key="serverPort"><!-- 服务端口号为30016 -->
+                    <value>30016</value>
+                </entry>
+                <entry key="timeOut"><!-- 连接超时时间，设定为5秒=5000ms毫秒 -->
+                    <value>5000</value>
+                </entry>
+            </map>
+        </property>
+    </bean>
+</beans>
