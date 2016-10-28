@@ -24,7 +24,8 @@
         <processorPath useClasspath="true" />
         <module name="thrift-pool" />
         <module name="thrift-service" />
-        <module name="thrift-spring" />
+        <module name="thrift-springboot" />
+        <module name="thrift-zookeeper-rpc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +33,8 @@
       <module name="thrift-pool" target="1.5" />
       <module name="thrift-service" target="1.8" />
       <module name="thrift-spring" target="1.8" />
+      <module name="thrift-springboot" target="1.8" />
+      <module name="thrift-zookeeper-rpc" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

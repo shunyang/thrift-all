@@ -6,7 +6,6 @@
 /bin
 */target
 *.iml
-rebel.xml
 
 #Package Files#
 *.jar
@@ -17,8 +16,5 @@ rebel.xml
 .DS_Store
 .git
 /logs
-node_modules
-*.less
-gulpfile.js
-package.json
-sprite.css
+**/logs/*
+*.log
