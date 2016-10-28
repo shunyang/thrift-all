@@ -2,65 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f63409-a76a-4757-be15-dcea5f355bf1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/main/java/com/yangyang/thrift/main/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/main/java/com/yangyang/thrift/server/config/ThriftServerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/main/java/com/yangyang/thrift/server/gen/HelloService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/main/java/com/yangyang/thrift/server/gen/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/main/java/com/yangyang/thrift/server/thrift/HelloServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/main/java/com/yangyang/thrift/server/thrift/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/main/java/com/yangyang/thrift/support/annotions/EnableThriftServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/main/java/com/yangyang/thrift/support/listener/ThriftApplicationListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/main/java/com/yangyang/thrift/support/service/ThriftConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/main/java/com/yangyang/thrift/support/service/ThriftLogUtility.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/main/java/com/yangyang/thrift/support/service/ThriftLoggingProxyHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/main/java/com/yangyang/thrift/support/service/ThriftServerService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/main/java/com/yangyang/thrift/support/service/ThriftServiceServerProxyBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/test/java/com/yangyang/thrift/HelloServiceClientTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-springboot/src/test/java/com/yangyang/thrift/ServerSocketTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/main/java/com/yangyang/thrift/rpc/ThriftClientPoolFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/main/java/com/yangyang/thrift/rpc/ThriftException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/main/java/com/yangyang/thrift/rpc/ThriftServiceClient2Proxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/main/java/com/yangyang/thrift/rpc/ThriftServiceClientProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/main/java/com/yangyang/thrift/rpc/ThriftServiceClientProxyFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/main/java/com/yangyang/thrift/rpc/ThriftServiceServerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/main/java/com/yangyang/thrift/rpc/zookeeper/FixedAddressProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/main/java/com/yangyang/thrift/rpc/zookeeper/ThriftServerAddressProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/main/java/com/yangyang/thrift/rpc/zookeeper/ThriftServerAddressProviderZookeeper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/main/java/com/yangyang/thrift/rpc/zookeeper/ThriftServerAddressRegister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/main/java/com/yangyang/thrift/rpc/zookeeper/ThriftServerAddressRegisterZookeeper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/main/java/com/yangyang/thrift/rpc/zookeeper/ThriftServerIpLocalNetworkResolve.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/main/java/com/yangyang/thrift/rpc/zookeeper/ThriftServerIpResolve.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/main/java/com/yangyang/thrift/rpc/zookeeper/ZookeeperFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/main/thrift/EchoService.thrift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/test/java/com/yangyang/thrift/rpc/demo/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/test/java/com/yangyang/thrift/rpc/demo/EchoSerivce.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/test/java/com/yangyang/thrift/rpc/demo/EchoSerivceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/test/java/com/yangyang/thrift/rpc/demo/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/test/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/test/resources/spring-context-thrift-client.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thrift-zookeeper-rpc/src/test/resources/spring-context-thrift-server.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thrift-spring/README.MD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thrift-spring/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thrift-spring/src/main/java/com/yangyang/thrift/spring/client/ThriftClientClassPathScanner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thrift-spring/src/main/java/com/yangyang/thrift/spring/client/ThriftClientFactoryBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thrift-spring/src/main/java/com/yangyang/thrift/spring/client/ThriftClientProxy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thrift-spring/src/main/java/com/yangyang/thrift/spring/client/ThriftClientScannerConfigurer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thrift-spring/src/main/java/com/yangyang/thrift/spring/common/ThriftSpringConst.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thrift-spring/src/test/resources/spring-thrift-test.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.MD" afterPath="$PROJECT_DIR$/README.MD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thrift-pool/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/thrift-pool/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="thrift-all.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -165,12 +108,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.MD" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.MD">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="238">
-                <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+              <first_editor relative-caret-position="630">
+                <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -191,11 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -261,6 +204,7 @@
         <option value="$PROJECT_DIR$/thrift-zookeeper-rpc/src/test/resources/spring-context-thrift-client.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.MD" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -330,162 +274,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="thrift-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-springboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-springboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-springboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-springboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="support" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-springboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift-springboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thrift" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -992,7 +780,7 @@
       <workItem from="1475234312180" duration="575000" />
       <workItem from="1476790328286" duration="175000" />
       <workItem from="1477027898401" duration="1062000" />
-      <workItem from="1477636609985" duration="3871000" />
+      <workItem from="1477636609985" duration="4152000" />
     </task>
     <servers />
   </component>
@@ -1008,7 +796,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24354000" />
+    <option name="totallyTimeSpent" value="24635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -1549,14 +1337,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thrift-springboot/src/main/java/com/yangyang/thrift/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1573,14 +1353,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.MD">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="238">
-            <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <first_editor relative-caret-position="630">
+            <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
