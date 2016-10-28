@@ -11,9 +11,7 @@
 *.jar
 *.war
 *.ear
-*.idea
-/.idea
-.idea/*
+.idea/
 .DS_Store
 .git
 /logs
