@@ -15,5 +15,7 @@
       <module>thrift-service</module>
       <module>thrift-springboot</module>
       <module>thrift-zookeeper-rpc</module>
+      <module>thrift-demo</module>
+      <module>thrift-spring</module>
   </modules>
 </project>
