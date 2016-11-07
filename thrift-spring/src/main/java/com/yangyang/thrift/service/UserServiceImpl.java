@@ -21,7 +21,7 @@ public class UserServiceImpl implements UserService.Iface{
             if(request.id.equals("10000")){
                 urp.setCode("0");
                 Map<String,String> params= new HashMap<String,String>();
-                params.put("name", "lucy");
+                params.put("name", "csy");
                 urp.setParams(params);
             }
             System.out.println("接收参数是：id="+request.id);

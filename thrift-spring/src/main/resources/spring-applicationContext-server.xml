@@ -7,8 +7,13 @@
        default-lazy-init="true">
     <description>thrift配置文件 </description>
     <context:component-scan base-package="com.yangyang.thrift" />
-    <!-- 服务端接口配置 -->
-    <bean id="userServiceServer" class="com.yangyang.thrift.server.UserServiceServer">
-        <property name="servicePort" value="8080" />
+
+    <bean id="userServiceImpl" class="com.yangyang.thrift.service.UserServiceImpl" />
+
+    <!-- 服务端注册 -->
+    <bean  class="com.yangyang.thrift.proxy.ThriftServerProxy">
+        <property name="port" value="8080" />
+        <property name="serviceInterface" value="com.yangyang.thrift.api.UserService" />
+        <property name="serviceImplObject" ref="userServiceImpl" />
     </bean>
 </beans>
